@@ -44,7 +44,6 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center flex-wrap lg:flex-nowrap gap-4">
-          {/* Logo */}
           <div className="flex items-center">
             <Image src={Logo} alt='Logo' width={205} height={48} className="h-auto" />
           </div>
@@ -73,7 +72,6 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Mobile menu button — ONLY on mobile */}
           <button 
             className="lg:hidden text-white p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -89,7 +87,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu + Buttons (ONLY when menu is open) */}
         {isMenuOpen && (
           <nav className="lg:hidden mt-4 pb-6 border-t border-white/20">
             <ul className="space-y-4 text-right mb-6">
@@ -106,7 +103,6 @@ const Navbar = () => {
               ))}
             </ul>
 
-            {/* Mobile Action Buttons — only shown when menu is open */}
             <div className="flex flex-col space-y-3 px-4">
               <button 
                 className="text-white bg-transparent border border-white py-3 rounded-lg font-semibold hover:bg-white hover:text-[#019683] transition-all text-center"

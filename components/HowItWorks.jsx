@@ -1,8 +1,8 @@
 import React from "react";
 import { Play } from "lucide-react";
 import Supermarket from "@/public/image164.png";
-import LeftDecor from "@/public/wepik-export-20231007094647cClH33.png";   // ⬅️ replace with your left image
-import RightDecor from "@/public/wepik-export-20231007094647cClH33.png"; // ⬅️ replace with your right image
+import LeftDecor from "@/public/wepik-export-20231007094647cClH33.png";   
+import RightDecor from "@/public/wepik-export-20231007094647cClH33.png"; 
 import Image from "next/image";
 
 export default function ArabicStepsProcess() {
@@ -110,25 +110,21 @@ export default function ArabicStepsProcess() {
         </div>
       </div>
 
-      {/* Video Section - Full Width */}
       <div className="w-screen max-w-6xl mx-auto relative rounded-xl mb-20">
         <div className="relative overflow-hidden">
           <div className="relative">
-            {/* Grocery Store Image */}
             <Image
               src={Supermarket}
               alt="متجر البقالة"
               className="w-[1184px] object-cover rounded-xl h-[485.8258056640625px]"
             />
 
-            {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-full p-6 hover:bg-opacity-30 transition-all duration-300 cursor-pointer group">
                 <Play className="w-16 h-16 text-black group-hover:scale-110 transition-transform duration-300" />
               </div>
             </div>
 
-            {/* Watch Video Text (Responsive Center) */}
             <div className="absolute bottom-30 inset-x-0 flex justify-center">
               <span className="text-white font-semibold text-lg md:text-xl lg:text-2xl text-center">
                 Watch Video

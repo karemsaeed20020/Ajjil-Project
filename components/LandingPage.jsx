@@ -33,7 +33,6 @@ export default function LandingPage() {
 
         <div className="flex flex-col space-y-8 bg-white p-6 w-full max-w-7xl mx-auto rounded-md">
 
-          {/* Title */}
           <div className="text-right">
             <h1 className="text-3xl md:text-5xl text-[#FF7701] font-bold leading-tight mb-6 text-right" dir="rtl">
   أفضل تطبيق{" "}
